@@ -1,0 +1,32 @@
+# Environnements
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Configuration sensible
+.env
+
+# Logs
+logs/*.log
+
+# Streamlit
+.streamlit/
+
+# Modèles téléchargés (sentence-transformers cache)
+~/.cache/huggingface/
+.cache/
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.swp

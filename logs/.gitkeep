@@ -1,0 +1,2 @@
+# Ce fichier maintient le dossier logs/ dans le dépôt.
+# Les fichiers .log sont ignorés par git (.gitignore).

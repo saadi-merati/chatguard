@@ -1,0 +1,26 @@
+# ChatGuard — Requirements
+# Python 3.11+
+
+# ── Interface ──────────────────────────────────────────────────────────────────
+streamlit>=1.32.0
+
+# ── LLM Providers ─────────────────────────────────────────────────────────────
+openai>=1.14.0
+requests>=2.31.0           # Pour HuggingFace Inference API
+
+# ── NLP / Embeddings ──────────────────────────────────────────────────────────
+sentence-transformers>=2.7.0
+numpy>=1.26.0
+torch>=2.2.0               # Requis par sentence-transformers (CPU version)
+
+# ── Data / Config ─────────────────────────────────────────────────────────────
+pandas>=2.2.0
+python-dotenv>=1.0.0
+pydantic>=2.6.0
+
+# ── Tests ──────────────────────────────────────────────────────────────────────
+pytest>=8.0.0
+pytest-cov>=4.1.0
+
+# ── Utilitaires ───────────────────────────────────────────────────────────────
+typing-extensions>=4.10.0
