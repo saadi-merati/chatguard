@@ -10,18 +10,17 @@ __pycache__/
 
 # Configuration sensible
 .env
+.env.*
 
 # Logs
-logs/*.log
+logs/
+*.log
 
 # Streamlit
 .streamlit/
 
-# Modèles téléchargés (sentence-transformers cache)
-~/.cache/huggingface/
+# Cache modèles / Python
 .cache/
-
-# Tests
 .pytest_cache/
 .coverage
 htmlcov/
@@ -30,3 +29,7 @@ htmlcov/
 .idea/
 .vscode/
 *.swp
+
+# Système
+.DS_Store
+Thumbs.db
